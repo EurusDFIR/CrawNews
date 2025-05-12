@@ -1,5 +1,5 @@
 # CrawNews
-## Bài Lab5 Thầy Nguyễn Thể Bảo 12/05/2025
+## Bài Lab5 Thầy Nguyễn Thế Bảo 12/05/2025
 ## Hướng dẫn chạy project
 
 ### 1. Yêu cầu hệ thống
