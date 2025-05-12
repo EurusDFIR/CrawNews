@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DANH MỤC CÁC BÀI BÁO</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 900px;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #007bff;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      .search-form {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #e9ecef;
+        border-radius: 4px;
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .form-group input[type="text"] {
+        width: calc(100% - 100px);
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: inline-block;
+      }
+      .form-group input[type="submit"] {
+        background-color: #28a745;
+        color: white;
+        padding: 9px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 5px;
+      }
+      nav {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="{{ url_for('index') }}">Trang Chủ</a>
+        <a href="{{ url_for('get_categories_route') }}">Danh Mục</a>
+        <a href="{{ url_for('render_news_route') }}">Tin Tức</a>
+      </nav>
+
+      <h1>DANH MỤC CÁC BÀI BÁO</h1>
+
+      <div class="search-form">
+        <form action="{{ url_for('render_news_route') }}" method="GET">
+          <div class="form-group">
+            <label for="keywords">Tìm kiếm theo tiêu đề:</label>
+            <input
+              type="text"
+              id="keywords"
+              name="keywords"
+              value="{{ current_keywords or '' }}"
+              placeholder="Nhập từ khóa..."
+            />
+            <input type="submit" value="Tìm" />
+          </div>
+        </form>
+      </div>
+
+      {% if data %}
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tiêu đề</th>
+            <th>Link gốc bài</th>
+            <th>ID danh mục</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for new_item in data %}
+          <tr>
+            <td>{{ new_item.id }}</td>
+            <td>{{ new_item.tieude }}</td>
+            <td>
+              <a href="{{ new_item.linkgoc }}" target="_blank"
+                >{{ new_item.linkgoc }}</a
+              >
+            </td>
+            <td>{{ new_item.cat_id }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %} {% if current_keywords %}
+      <p>Không tìm thấy bài báo nào với từ khóa "{{ current_keywords }}".</p>
+      {% else %}
+      <p>
+        Không có bài báo nào để hiển thị. Hãy thử
+        <a href="{{ url_for('render_news_route') }}">tải lại tất cả</a> hoặc tìm
+        kiếm.
+      </p>
+      {% endif %} {% endif %}
+    </div>
+  </body>
+</html>

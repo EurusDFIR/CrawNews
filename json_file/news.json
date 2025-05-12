@@ -1,0 +1,274 @@
+[
+    {
+        "id": 1,
+        "tieude": "Tin tức thời sự nóng hổi",
+        "noidung": "Chi tiết...",
+        "hinhanh": "img1.jpg",
+        "linkgoc": "link1.html",
+        "cat_id": 1
+    },
+    {
+        "id": 2,
+        "tieude": "Kết quả bóng đá Ngoại Hạng Anh",
+        "noidung": "Chi tiết...",
+        "hinhanh": "img2.jpg",
+        "linkgoc": "link2.html",
+        "cat_id": 2
+    },
+    {
+        "id": 3,
+        "tieude": "Công nghệ AI thay đổi thế giới",
+        "noidung": "Chi tiết...",
+        "hinhanh": "img3.jpg",
+        "linkgoc": "link3.html",
+        "cat_id": 3
+    },
+    {
+        "id": 4,
+        "tieude": "Một tin tức khác về thời sự",
+        "noidung": "Nội dung khác...",
+        "hinhanh": "img4.jpg",
+        "linkgoc": "link4.html",
+        "cat_id": 1
+    },
+    {
+        "id": 5,
+        "tieude": "Quốc lộ nối TP HCM - Long An sắp hoàn thành mở rộng",
+        "noidung": "Sau thời gian vướng mắc kéo dài, doanh nghiệp hoàn tất đền bù cho 11 hộ dân thuộc hai dự án nhà ở, giúp đẩy nhanh tiến độ đường song hành quốc lộ 50.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/12/z6580964484782bc4c2d76f8aee06d-3120-5206-1747027882.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=-LiLvRf-R_LTBvDj-OpsXA",
+        "linkgoc": "https://vnexpress.net/quoc-lo-noi-tp-hcm-long-an-sap-hoan-thanh-mo-rong-4884741.html",
+        "cat_id": 1
+    },
+    {
+        "id": 6,
+        "tieude": "Cháy tiệm điện lạnh ở TP HCM",
+        "noidung": "Khói lửa bùng lên tiệm điện lạnh ở phường Tân Chánh Hiệp, quận 12, người đàn ông 33 tuổi mắc kẹt, tử vong.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/12/72ef2b0276bcc4e29dad-174701271-3395-4407-1747016759.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=A169ceu37UdMbrD_tShkNA",
+        "linkgoc": "https://vnexpress.net/chay-tiem-dien-lanh-o-tp-hcm-4884562.html",
+        "cat_id": 1
+    },
+    {
+        "id": 7,
+        "tieude": "Tháp Đa Bảo - nơi lưu giữ vĩnh viễn xá lợi Bồ tát Thích Quảng Đức",
+        "noidung": "Tòa tháp cao 63 m ở Việt Nam Quốc Tự, quận 10, biểu tượng của cuộc đấu tranh vì bình đẳng tôn giáo là nơi lưu giữ xá lợi trái tim Bồ tát Thích Quảng Đức.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/12/2-1747021528-1747021577-6610-1747021750.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=LntI_CR5EXnjJXk4OQEe0g",
+        "linkgoc": "https://vnexpress.net/thap-da-bao-noi-luu-giu-vinh-vien-xa-loi-bo-tat-thich-quang-duc-4884487.html",
+        "cat_id": 1
+    },
+    {
+        "id": 8,
+        "tieude": "Hàng nghìn hecta lúa bị gãy đổ sau mưa giông ở miền Trung",
+        "noidung": "Mưa giông kèm gió mạnh tại Quảng Bình, Hà Tĩnh và Nghệ An khiến hàng nghìn hecta lúa bị ngập úng, gãy đổ, nhiều diện tích chuẩn bị thu hoạch có nguy cơ mất trắng.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/11/68a523c6b57707295e66-1-3909-1746975936.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=zYUwqSMYeh9JjTfaeooxsA",
+        "linkgoc": "https://vnexpress.net/hang-nghin-hecta-lua-bi-gay-do-sau-mua-giong-o-mien-trung-4884476.html",
+        "cat_id": 1
+    },
+    {
+        "id": 9,
+        "tieude": "'Khó chấp nhận nếu quy mô kinh tế Hải Phòng không ở top ba cả nước'",
+        "noidung": "Với vị thế, tiềm năng vốn có, Hải Phòng phải là thành phố lớn thứ ba cả nước về quy mô kinh tế, chỉ sau Hà Nội và TP HCM, theo Bí thư Thành ủy Lê Tiến Châu.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/kho-chap-nhan-neu-quy-mo-kinh-te-hai-phong-khong-o-top-ba-ca-nuoc-4883832.html",
+        "cat_id": 1
+    },
+    {
+        "id": 10,
+        "tieude": "Đề xuất đa dạng hóa hình thức vận động bầu cử Quốc hội và HĐND",
+        "noidung": "Ngày 12/5, Quốc hội sẽ nghe tờ trình Luật Bầu cử đại biểu Quốc hội và đại biểu HĐND, trong đó có đề xuất đa dạng hóa hình thức vận động bầu cử, gồm cả trực tiếp, trực tuyến, trực tiếp kết hợp với trực tuyến.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/de-xuat-da-dang-hoa-hinh-thuc-van-dong-bau-cu-quoc-hoi-va-hdnd-4884433.html",
+        "cat_id": 1
+    },
+    {
+        "id": 11,
+        "tieude": "Hơn 1.100 cán bộ Kon Tum chuyển xuống Quảng Ngãi sau sáp nhập",
+        "noidung": "Lãnh đạo tỉnh tính phương án để 1.163 cán bộ từ Kon Tum chuyển xuống Quảng Ngãi sớm ổn định chỗ ở, yên tâm công tác khi sáp nhập hai địa phương.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/12/a-trong-giam-doc-so-jpg-174701-9933-8213-1747016973.png?w=240&h=144&q=100&dpr=1&fit=crop&s=YR3ZtnqjbsewgLfLn1Sn1A",
+        "linkgoc": "https://vnexpress.net/hon-1-100-can-bo-kon-tum-chuyen-xuong-quang-ngai-sau-sap-nhap-4884415.html",
+        "cat_id": 1
+    },
+    {
+        "id": 12,
+        "tieude": "Hàng nghìn tăng ni, phật tử đi bộ rước Phật",
+        "noidung": "TP HuếSau lễ tắm Phật ở chùa Diệu Đế, hàng nghìn tăng ni, phật tử ở Huế cùng đi bộ hơn 4 km rước Phật lên Tổ đình Từ Đàm, chiều 11/5 (ngày 14/4 âm lịch).",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/12/16_1746968888-1746969664-1746987655.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=FhZ6u9ZQQ8jxd6w2TzjhWg",
+        "linkgoc": "https://vnexpress.net/hang-nghin-tang-ni-phat-tu-di-bo-ruoc-phat-4884463.html",
+        "cat_id": 1
+    },
+    {
+        "id": 13,
+        "tieude": "Hoàn thành xóa nhà dột nát cho thân nhân liệt sĩ trước 27/7",
+        "noidung": "Thủ tướng Phạm Minh Chính chỉ đạo ưu tiên nguồn lực hỗ trợ nhà ở cho thân nhân liệt sĩ trước 27/7 và người có công với cách mạng trước 2/9.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/11/thu-tuong-jpeg-1746974210-1746-5743-9050-1746974558.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=oiyRSyWrDZLxiOwvhPM8lg",
+        "linkgoc": "https://vnexpress.net/hoan-thanh-xoa-nha-dot-nat-cho-than-nhan-liet-si-truoc-27-7-4884478.html",
+        "cat_id": 1
+    },
+    {
+        "id": 14,
+        "tieude": "Xe tải tông sập nhà dân, bé gái tử vong",
+        "noidung": "Phú YênÔtô tải chạy trên quốc lộ tông vào nhà dân ở huyện Sơn Hòa làm bé gái 5 tháng tuổi tử vong, người chị 13 tuổi chấn thương, chiều 11/5",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/xe-tai-tong-sap-nha-dan-be-gai-tu-vong-4884474.html",
+        "cat_id": 1
+    },
+    {
+        "id": 15,
+        "tieude": "Hai học sinh trả lại lắc vàng nhặt được",
+        "noidung": "Kiên GiangHai nam sinh trường Trường THCS và THPT Lại Sơn nhặt được ví bên trong có tiền và một lắc vàng đã mang đến công an nhờ tìm người đánh rơi.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/12/z6592493495031-567574add281f33-9334-4813-1747038986.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=licRzT3WuOfwv6g_e3XmCg",
+        "linkgoc": "https://vnexpress.net/hai-hoc-sinh-tra-lai-lac-vang-nhat-duoc-4884844.html",
+        "cat_id": 1
+    },
+    {
+        "id": 16,
+        "tieude": "Nam công nhân bị mưa lớn cuốn tử vong",
+        "noidung": "Bình DươngSau hai ngày mất tích nghi bị nước cuốn trôi, thi thể nam công nhân được tìm thấy cách công trường chừng 200 m.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/nam-cong-nhan-bi-mua-lon-cuon-tu-vong-4884472.html",
+        "cat_id": 1
+    },
+    {
+        "id": 17,
+        "tieude": "'Đất đá vẫn trào xuống khi vợ chồng tôi rơi vào đường sụt lún'",
+        "noidung": "Tây NinhKhi vừa qua cầu nối hai xã, ông Khắng thấy đường sụt lún, song trời tối không xử lý kịp, người và xe lao xuống hố sâu, gãy chân trái, kẹt dưới đống đất đá.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/dat-da-van-trao-xuong-khi-vo-chong-toi-roi-vao-duong-sut-lun-4884423.html",
+        "cat_id": 1
+    },
+    {
+        "id": 18,
+        "tieude": "Hải Phòng gắn biển khánh thành và khởi công 12 dự án trọng điểm",
+        "noidung": "Chiều 11/5, TP Hải Phòng tổ chức gắn biển công trình Trung tâm Chính trị - Hành chính và Trung tâm Hội nghị - Biểu diễn thành phố, đồng thời khởi công, khánh thành 10 dự án khác.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/hai-phong-gan-bien-khanh-thanh-va-khoi-cong-12-du-an-trong-diem-4884434.html",
+        "cat_id": 1
+    },
+    {
+        "id": 19,
+        "tieude": "Hiện trường đường sụt lún, đứt gãy ở Tây Ninh",
+        "noidung": "Sau hơn 2 tuần sử dụng, cầu nối hai xã ở huyện Châu Thành hư hỏng trụ, đường nứt toác, giao thông đình trệ sau sự cố sụt lún xảy ra sáng 11/5.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/hien-truong-duong-sut-lun-dut-gay-o-tay-ninh-4884365.html",
+        "cat_id": 1
+    },
+    {
+        "id": 20,
+        "tieude": "Hà Nội định hướng lựa chọn bí thư phường, xã mới",
+        "noidung": "Hà Nội ưu tiên lựa chọn thành ủy viên, bí thư cấp huyện, phó bí thư, ủy viên ban thường vụ, phó chủ tịch HĐND, UBND cấp huyện và các trưởng phòng ban có năng lực vượt trội làm bí thư phường, xã mới.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/ha-noi-dinh-huong-lua-chon-bi-thu-phuong-xa-moi-4884344.html",
+        "cat_id": 1
+    },
+    {
+        "id": 21,
+        "tieude": "Tôn trí xá lợi trái tim Bồ tát Thích Quảng Đức ở tháp cao 63 m",
+        "noidung": "TP HCMSau một tuần người dân chiêm bái, xá lợi trái tim Bồ tát Thích Quảng Đức được đặt vào tháp Đa Bảo ở Việt Nam Quốc Tự để tôn trí vĩnh viễn, sáng 11/5.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/ton-tri-xa-loi-trai-tim-bo-tat-thich-quang-duc-o-thap-cao-63-m-4884366.html",
+        "cat_id": 1
+    },
+    {
+        "id": 22,
+        "tieude": "Miền Bắc giảm mưa và chuyển nắng từ ngày mai",
+        "noidung": "Miền Bắc chấm dứt đợt mưa giông do không khí lạnh, dự báo trời nắng từ ngày 12/5 và duy trì đến giữa tuần.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/mien-bac-giam-mua-va-chuyen-nang-tu-ngay-mai-4884356.html",
+        "cat_id": 1
+    },
+    {
+        "id": 23,
+        "tieude": "3.000 người diễu hành mừng 70 năm giải phóng Hải Phòng",
+        "noidung": "Sáng 11/5, 3.000 người tham gia 48 khối duyệt đội ngũ và diễu hành kỷ niệm 70 ngày giải phóng TP Hải Phòng (13/5/1955).",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/10/z6587779282285-7652d11ca62aa9b09d25332ef1b89604-1746868307.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=HEqkoWgdl4-zLdRNj7THyQ",
+        "linkgoc": "https://vnexpress.net/3-000-nguoi-dieu-hanh-mung-70-nam-giai-phong-hai-phong-4884156.html",
+        "cat_id": 1
+    },
+    {
+        "id": 24,
+        "tieude": "Đường mới khánh thành sụt lún 'nuốt' ôtô, xe máy",
+        "noidung": "Tây NinhTuyến đường ở huyện Châu Thành hoàn thành cuối tháng 4 bị sụt lún đoạn dài hàng chục mét, ôtô và xe máy rơi xuống hố, 7 người bị thương, sáng 11/5.",
+        "hinhanh": "https://i1-vnexpress.vnecdn.net/2025/05/11/495629925-1083485213811517-754-3605-6578-1746937953.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=Ob7-Y4WmxMin8eobRoZSwA",
+        "linkgoc": "https://vnexpress.net/duong-moi-khanh-thanh-sut-lun-nuot-oto-xe-may-4884318.html",
+        "cat_id": 1
+    },
+    {
+        "id": 25,
+        "tieude": "Thomas Muller - người giải mã không gian độc nhất của Bayern",
+        "noidung": "Khi rời đi sau 25 năm gắn bó hè này, tiền đạo Thomas Muller sẽ để lại khoảng trống khó ai có thể lấp đầy ở Bayern Munich vì lối chơi khác biệt.",
+        "hinhanh": "https://i1-thethao.vnecdn.net/2025/05/12/download-8-1747026512-17470268-2724-5477-1747026987.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=620KUDE_3-QF83b718jIeA",
+        "linkgoc": "https://vnexpress.net/thomas-muller-nguoi-giai-ma-khong-gian-doc-nhat-cua-bayern-4884725.html",
+        "cat_id": 2
+    },
+    {
+        "id": 26,
+        "tieude": "Trọng tài 'tạ ơn Chúa' trước khi hủy bàn thắng của Barca",
+        "noidung": "Tây Ban NhaTrong cuộc thảo luận phòng VAR về bàn thắng bị hủy cuối trận Barca thắng Real, một người tỏ ra nhẹ nhõm vì bóng chạm tay Fermin Lopez.",
+        "hinhanh": "https://i1-thethao.vnecdn.net/2025/05/12/fermin-1747016895-1747016911-1-1743-2615-1747016962.png?w=380&h=228&q=100&dpr=1&fit=crop&s=cv34I1IwK2RdMY3STRUO4g",
+        "linkgoc": "https://vnexpress.net/trong-tai-ta-on-chua-truoc-khi-huy-ban-thang-cua-barca-4884587.html",
+        "cat_id": 2
+    },
+    {
+        "id": 27,
+        "tieude": "Barca gây ám ảnh nhất sự nghiệp Courtois",
+        "noidung": "Tây Ban NhaBarca khiến thủ môn Thibaut Courtois phải vào lưới nhặt bóng nhiều nhất trong 16 năm sự nghiệp.",
+        "hinhanh": "https://i1-thethao.vnecdn.net/2025/05/12/newproject20250512t153604960-1-7051-9725-1747039085.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=mBbDz96v60_CbJb2pofh3g",
+        "linkgoc": "https://vnexpress.net/barca-gay-am-anh-nhat-su-nghiep-courtois-4884810.html",
+        "cat_id": 2
+    },
+    {
+        "id": 28,
+        "tieude": "Cựu chủ quán mì ramen chạy marathon trên 47 tỉnh Nhật Bản",
+        "noidung": "",
+        "hinhanh": "https://i1-thethao.vnecdn.net/2025/05/12/runner-png-1747034434-17470344-4647-6059-1747034506.png?w=300&h=180&q=100&dpr=1&fit=crop&s=QDwM-izDXb1PvsRUIpn43A",
+        "linkgoc": "https://vnexpress.net/cuu-chu-quan-mi-ramen-chay-marathon-tren-47-tinh-nhat-ban-4884787.html",
+        "cat_id": 2
+    },
+    {
+        "id": 29,
+        "tieude": "Tân Giáo hoàng Leo XIV từng là tay vợt nghiệp dư",
+        "noidung": "",
+        "hinhanh": "https://i1-thethao.vnecdn.net/2025/05/12/aptennisscaled-1747032386-1747-3091-1168-1747032592.jpg?w=300&h=180&q=100&dpr=1&fit=crop&s=L0U_u_Ae0vh9M_H9jWRMWg",
+        "linkgoc": "https://vnexpress.net/tan-giao-hoang-leo-xiv-tung-la-tay-vot-nghiep-du-4884760.html",
+        "cat_id": 2
+    },
+    {
+        "id": 30,
+        "tieude": "Djokovic dự giải ATP 250",
+        "noidung": "",
+        "hinhanh": "https://i1-thethao.vnecdn.net/2025/05/12/djokovicgeneva2025-1747027746-6406-1747028134.jpg?w=300&h=180&q=100&dpr=1&fit=crop&s=rKodsDITHxPGsxWBxJK5Mw",
+        "linkgoc": "https://vnexpress.net/djokovic-du-giai-atp-250-4884742.html",
+        "cat_id": 2
+    },
+    {
+        "id": 31,
+        "tieude": "Yamal áp đảo Mbappe khi trực tiếp đối đầu",
+        "noidung": "",
+        "hinhanh": "https://i1-thethao.vnecdn.net/2025/05/12/yamal-mbappe-jpeg-1747028969-1-4064-7405-1747029424.jpg?w=300&h=180&q=100&dpr=1&fit=crop&s=kCHJgIc1fvCwV3Pt9F56cg",
+        "linkgoc": "https://vnexpress.net/yamal-ap-dao-mbappe-khi-truc-tiep-doi-dau-4884744.html",
+        "cat_id": 2
+    },
+    {
+        "id": 32,
+        "tieude": "7 lần trọng tài gây tranh cãi khi Real thua Barca 3-4",
+        "noidung": "Trọng tài chính Alejandro Hernandez và người phụ trách VAR Juan Munuera có nhiều quyết định khiến cả Real lẫn Barca phản ứng ở vòng 35 La Liga ngày 11/5.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/7-lan-trong-tai-gay-tranh-cai-khi-real-thua-barca-3-4-4884510.html",
+        "cat_id": 2
+    },
+    {
+        "id": 33,
+        "tieude": "HLV Trần Minh Chiến tin Bình Định sẽ thoát hiểm ở V-League",
+        "noidung": "Bình ĐịnhCó chút lo lắng khi nhận lời dẫn dắt Bình Định, nhưng HLV Trần Minh Chiến tự tin đội bóng đất võ sẽ trụ hạng thành công ở V-League 2024-2025.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/hlv-tran-minh-chien-tin-binh-dinh-se-thoat-hiem-o-v-league-4884804.html",
+        "cat_id": 2
+    },
+    {
+        "id": 34,
+        "tieude": "Sao trẻ Real bị vùi dập vì sút hỏng trước Barca",
+        "noidung": "Tây Ban NhaVictor Munoz phải đóng tài khoản mạng xã hội sau khi Real Madrid thua Barca 3-4 ở La Liga, ngày 11/5.",
+        "hinhanh": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "linkgoc": "https://vnexpress.net/sao-tre-real-bi-vui-dap-vi-sut-hong-truoc-barca-4884544.html",
+        "cat_id": 2
+    }
+]

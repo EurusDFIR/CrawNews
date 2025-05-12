@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DANH MỤC BÀI BÁO</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #007bff;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      nav {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="{{ url_for('index') }}">Trang Chủ</a>
+        <a href="{{ url_for('get_categories_route') }}">Danh Mục</a>
+        <a href="{{ url_for('render_news_route') }}">Tin Tức</a>
+      </nav>
+      <h1>DANH MỤC TRANG TÌM KIẾM</h1>
+      {% if data %}
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tên trang báo (Chủ đề)</th>
+            <th>Link trang chủ bài báo (Nguồn)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for cat in data %}
+          <tr>
+            <td>{{ cat.id }}</td>
+            <td>{{ cat.subject }}</td>
+            <td><a href="{{ cat.url }}" target="_blank">{{ cat.url }}</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p>Không có danh mục nào để hiển thị.</p>
+      {% endif %}
+    </div>
+  </body>
+</html>

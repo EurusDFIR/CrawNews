@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "subject": "Thời sự",
+        "url": "https://vnexpress.net/thoi-su"
+    },
+    {
+        "id": 2,
+        "subject": "Thể thao",
+        "url": "https://vnexpress.net/the-thao"
+    },
+    {
+        "id": 3,
+        "subject": "Công nghệ",
+        "url": "https://dantri.com.vn/suc-manh-so"
+    }
+]
