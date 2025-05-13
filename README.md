@@ -66,3 +66,5 @@ Sau đó truy cập: http://127.0.0.1:5000/
 ### Tin tức
 
 ![alt text](image-2.png)
+
+### Người thực hiện: Lê Văn Hoàng (EurusDFIR)
