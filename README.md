@@ -58,14 +58,17 @@ Sau đó truy cập: http://127.0.0.1:5000/
 
 ### Trang chủ
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/6f3a5d12-e915-4e1a-bed6-f74b3d6658db)
+
 
 ### Danh mục
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/6f63c6f2-c30c-4f07-8734-f5dbbf213ca5)
+
 
 ### Tin tức
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/5bed9f78-0560-4741-9970-8f5997e929f5)
 
-### Người thực hiện: Lê Văn Hoàng (EurusDFIR)
+
+
