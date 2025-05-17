@@ -3,84 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <title>DANH MỤC BÀI BÁO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        background-color: #f4f4f4;
-      }
-      .container {
-        max-width: 800px;
-        margin: auto;
-        background-color: white;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      h1 {
-        text-align: center;
-        color: #333;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-      }
-      th,
-      td {
-        border: 1px solid #ddd;
-        padding: 12px;
-        text-align: left;
-      }
-      th {
-        background-color: #007bff;
-        color: white;
-      }
-      tr:nth-child(even) {
-        background-color: #f9f9f9;
-      }
       nav {
         text-align: center;
         margin-bottom: 20px;
       }
-      nav a {
-        margin: 0 10px;
-        text-decoration: none;
-        color: #007bff;
-        font-weight: bold;
-      }
     </style>
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <a href="{{ url_for('index') }}">Trang Chủ</a>
-        <a href="{{ url_for('get_categories_route') }}">Danh Mục</a>
-        <a href="{{ url_for('render_news_route') }}">Tin Tức</a>
-      </nav>
-      <h1>DANH MỤC TRANG TÌM KIẾM</h1>
-      {% if data %}
-      <table class="table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Tên trang báo (Chủ đề)</th>
-            <th>Link trang chủ bài báo (Nguồn)</th>
-          </tr>
-        </thead>
-        <tbody>
+    <div class="min-h-screen bg-gradient-to-br from-blue-50 to-blue-200 py-10">
+      <div
+        class="container mx-auto max-w-4xl bg-white/90 p-8 rounded-2xl shadow-2xl mt-8"
+      >
+        <nav class="flex justify-center space-x-6 mb-8">
+          <a
+            href="{{ url_for('index') }}"
+            class="text-blue-600 font-bold hover:underline"
+            >Trang Chủ</a
+          >
+          <a
+            href="{{ url_for('get_categories_route') }}"
+            class="text-blue-600 font-bold hover:underline"
+            >Danh Mục</a
+          >
+          <a
+            href="{{ url_for('render_news_route') }}"
+            class="text-blue-600 font-bold hover:underline"
+            >Tin Tức</a
+          >
+        </nav>
+        <h1
+          class="text-4xl font-extrabold text-center text-blue-700 mb-10 tracking-tight drop-shadow-lg"
+        >
+          <span class="inline-block align-middle"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="inline w-10 h-10 mr-2 text-blue-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V7M16 3v4M8 3v4M4 11h16"
+              /></svg
+          ></span>
+          DANH MỤC TRANG TÌM KIẾM
+        </h1>
+        {% if data %}
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {% for cat in data %}
-          <tr>
-            <td>{{ cat.id }}</td>
-            <td>{{ cat.subject }}</td>
-            <td><a href="{{ cat.url }}" target="_blank">{{ cat.url }}</a></td>
-          </tr>
+          <div
+            class="bg-white/95 rounded-2xl shadow-xl border border-blue-100 hover:shadow-2xl transition group p-6 flex flex-col items-start"
+          >
+            <div class="flex items-center mb-3">
+              <span
+                class="inline-block bg-blue-600 text-white text-lg font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 shadow"
+                >{{ cat.id }}</span
+              >
+              <span
+                class="text-xl font-bold text-blue-800 group-hover:text-blue-600 transition"
+                >{{ cat.subject }}</span
+              >
+            </div>
+            <a
+              href="{{ cat.url }}"
+              target="_blank"
+              class="text-blue-500 hover:underline text-base break-all mb-2"
+              >{{ cat.url }}</a
+            >
+            <span class="text-xs text-gray-400">ID: {{ cat.id }}</span>
+          </div>
           {% endfor %}
-        </tbody>
-      </table>
-      {% else %}
-      <p>Không có danh mục nào để hiển thị.</p>
-      {% endif %}
+        </div>
+        {% else %}
+        <p class="text-red-600 font-semibold mt-6">
+          Không có danh mục nào để hiển thị.
+        </p>
+        {% endif %}
+      </div>
     </div>
   </body>
 </html>

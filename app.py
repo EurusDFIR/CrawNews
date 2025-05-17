@@ -91,11 +91,38 @@ def render_news_route():
     Uses read_news_from_json (which might internally call get_news_to_json if file is missing).
     """
     keywords = request.args.get("keywords", None)
-    
-  
-
+    cat_id = request.args.get("cat_id", type=int)
+    page = int(request.args.get("page", 1))
+    per_page = 9
+    # Lấy tất cả danh mục để render dropdown
+    categories = utils_db.get_categories_to_json()
     news_data = utils_db.read_news_from_json(keywords=keywords)
-    return render_template("news.html", data=news_data, current_keywords=keywords or "")
+    # Lọc theo danh mục nếu có
+    if cat_id:
+        news_data = [n for n in news_data if n.get('cat_id') == cat_id]
+    # Loại bỏ tin mẫu không hợp lệ
+    news_data = [n for n in news_data if not n.get('linkgoc', '').startswith('link')]
+    total = len(news_data)
+    start = (page - 1) * per_page
+    end = start + per_page
+    paginated = news_data[start:end]
+    total_pages = (total + per_page - 1) // per_page
+    return render_template(
+        "news.html",
+        data=paginated,
+        current_keywords=keywords or "",
+        current_cat_id=cat_id,
+        categories=categories,
+        page=page,
+        total_pages=total_pages
+    )
+
+# Trang chi tiết bài báo
+@app.route("/news/<int:news_id>")
+def news_detail(news_id):
+    news = News.query.get_or_404(news_id)
+    category = Category.query.get(news.cat_id)
+    return render_template("news_detail.html", news=news, category=category)
 
 
 if __name__ == "__main__":
