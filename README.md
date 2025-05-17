@@ -1,5 +1,6 @@
 # CrawNews
 ## Bài Lab5 Thầy Nguyễn Thế Bảo 12/05/2025
+## Sinh viên thực hiện Lê Văn Hoàng - 2224802010279
 ## Hướng dẫn chạy project
 
 ### 1. Yêu cầu hệ thống
